@@ -1,0 +1,23 @@
+.eachCard{
+    background-color:#ececec;
+    margin: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px #8b8989;
+}
+.eachCard img{
+width: 300px;
+}
+.eachCard p{
+    margin: 10px 30px;
+    background-color: rgb(11, 158, 50);
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+    color: #fff;
+}
+.eachCard h1{
+    color: #555454;
+    margin:10px;
+}

@@ -1,0 +1,7 @@
+.containercard{
+    border: 2px solid;
+    margin: 30px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
