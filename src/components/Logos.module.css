@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+    margin: 20px 0;
+
+}
+.container h1{
+    font-size: 3rem;
+    margin:25px;
+    color: #505050;
+    font-weight: bold;
+}
+.container div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container img{
+    width: 300px;
+}

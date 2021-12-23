@@ -9,11 +9,11 @@ import fourthpack from "../images/4.jpg"
 class Cards extends Component {
     render() {
         return (
-            <div className={styles.containercard}>
+            <div className={styles.container}>
                 <Card image={firstpack} name="first package" price="20$"/>
-                <Card image={secpack} name="first package" price="20$"/>
-                <Card image={thirdpack} name="first package" price="20$"/>
-                <Card image={fourthpack} name="first package" price="20$"/>
+                <Card image={secpack} name="second package" price="27$"/>
+                <Card image={thirdpack} name="third package" price="22$"/>
+                <Card image={fourthpack} name="fourth package" price="28$"/>
             </div>
         );
     }
