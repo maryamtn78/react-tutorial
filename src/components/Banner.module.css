@@ -4,9 +4,6 @@
 .bannerContainer img{
     width: 100%;
     height: 90vh;
-    margin:0 auto;
-    float: right;
-    
 }
 .text{
     position: absolute;

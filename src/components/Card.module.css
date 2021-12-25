@@ -1,6 +1,6 @@
 .eachCard{
     background-color:#ececec;
-    margin: 30px;
+    margin: 10px;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 5px 5px 10px #8b8989;
@@ -17,7 +17,7 @@ width: 300px;
     text-align: center;
     color: #fff;
 }
-.eachCard h1{
+.eachCard h2{
     color: #555454;
     margin:10px;
 }
