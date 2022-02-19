@@ -7,7 +7,7 @@ const Banner = () => {
         <div className={ styles.bannerContainer}>
             <img src={banner} alt='banner'/>
             <div className={styles.text}>
-                <h1>thursday</h1>
+                <h1>makeup</h1>
                 <p>I'm learning <span>React.js</span></p>
             </div>
         </div>

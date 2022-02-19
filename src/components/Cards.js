@@ -10,10 +10,10 @@ class Cards extends Component {
     render() {
         return (
             <div className={styles.container}>
-                <Card image={firstpack} name="first package" price="20$"/>
-                <Card image={secpack} name="second package" price="27$"/>
-                <Card image={thirdpack} name="third package" price="22$"/>
-                <Card image={fourthpack} name="fourth package" price="28$"/>
+                <Card image={firstpack} name="first package" price="20 $"/>
+                <Card image={secpack} name="second package" price="27 $"/>
+                <Card image={thirdpack} name="third package" price="22 $"/>
+                <Card image={fourthpack} name="fourth package" price="28 $"/>
             </div>
         );
     }

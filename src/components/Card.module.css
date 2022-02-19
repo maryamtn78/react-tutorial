@@ -21,3 +21,26 @@ width: 300px;
     color: #555454;
     margin:10px;
 }
+
+.counter{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid silver;
+}
+.counter img{
+    width: 20px; 
+    margin: 16px;
+    cursor: pointer;
+    
+}
+.counter span{
+    background-color: #555454;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+}
+.deactive{
+    opacity: 0.3;
+}
