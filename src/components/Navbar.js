@@ -1,15 +1,17 @@
 import React from 'react';
 import styles from "./Navbar.module.css"
 import logo from "../images/logo.jfif"
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <header className={styles.header}>
             <div className={styles.listContainer}>
                 <ul className={styles.list}>
-                    <li>home</li>
-                    <li>about us</li>
-                    <li>contact</li>
+                    <li><Link to="/">home</Link></li>
+                    <li><Link to="/products">products</Link></li>
+                    <li><Link to="/">about us</Link></li>
+                    <li><Link to="/">contact</Link></li>
                 </ul>
             </div>
 

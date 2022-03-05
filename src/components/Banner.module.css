@@ -23,3 +23,29 @@
     color:rgb(187, 8, 8);
     font-weight: bold;
 }
+@media(max-width : 1200px){
+    .text{
+        position: absolute;
+        left: 50px;
+    }
+}
+@media(max-width : 1024px){
+    .text{
+        position: absolute;
+        top: 30px;
+        left: 20px;
+    }
+    .text h1{
+        font-size: 4rem;
+    }
+    .text p{
+        font-size: 2rem;
+        
+    }
+}
+@media(max-width : 768px){
+    .text p{
+        font-size:1.5rem;
+        
+    }
+}

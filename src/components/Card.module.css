@@ -1,12 +1,14 @@
 .eachCard{
     background-color:#ececec;
-    margin: 10px;
+    margin: 24px 8px;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 5px 5px 10px #8b8989;
+    width: 300px;
 }
 .eachCard img{
 width: 300px;
+height: 300px;
 }
 .eachCard p{
     margin: 10px 30px;
@@ -31,6 +33,7 @@ width: 300px;
 .counter img{
     width: 20px; 
     margin: 16px;
+    height: fit-content;
     cursor: pointer;
     
 }
