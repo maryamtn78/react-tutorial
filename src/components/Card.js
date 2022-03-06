@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import styles from "./Card.module.css"
-import up from "../images/uparr.svg"
-import down from "../images/downarr.svg"
+import styles from "./Card.module.css";
+import up from "../images/uparr.svg";
+import down from "../images/downarr.svg";
+import {Link } from "react-router-dom"
 
 class Card extends Component {
     constructor(){
@@ -25,12 +26,12 @@ class Card extends Component {
 
 
     render() {
-        const {image , name , price} = this.props;
+        const {image , name , price , id} = this.props;
         const {counterNum} = this.state;
         return (
             <div className={styles.eachCard}>
                 <img src={image} alt='cardimg'/>
-                <h2>{name}</h2>
+                <h2><Link to={`/products/${id}`}>{name}</Link></h2>
                 <p>{price}{ counterNum ? ` * ${counterNum} = ${ counterNum * Number( price.split(" ")[0])} $`: " "}</p>
                 <div className={styles.counter}>
                     <img className={!this.state.counterNum ? styles.deactive : ""} src={down} alt="downArrow" onClick={this.downHandler} />

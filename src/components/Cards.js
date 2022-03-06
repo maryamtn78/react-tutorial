@@ -21,7 +21,7 @@ class Cards extends Component {
     render() {
         return (
             <div className={styles.container}>
-                {this.state.packdata.map(pack => <Card key={pack.id} name={pack.name} image={pack.image} price={pack.price}/>)}
+                {this.state.packdata.map(pack => <Card key={pack.id} name={pack.name} image={pack.image} price={pack.price} id={pack.id}/>)}
             </div>
         );
     }
